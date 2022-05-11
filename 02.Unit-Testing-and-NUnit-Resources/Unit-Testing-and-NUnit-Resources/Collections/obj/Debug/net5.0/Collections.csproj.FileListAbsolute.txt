@@ -1,0 +1,32 @@
+C:\Users\Cvetomir\Desktop\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\bin\Debug\net5.0\Collections.exe
+C:\Users\Cvetomir\Desktop\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\bin\Debug\net5.0\Collections.deps.json
+C:\Users\Cvetomir\Desktop\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\bin\Debug\net5.0\Collections.runtimeconfig.json
+C:\Users\Cvetomir\Desktop\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\bin\Debug\net5.0\Collections.runtimeconfig.dev.json
+C:\Users\Cvetomir\Desktop\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\bin\Debug\net5.0\Collections.dll
+C:\Users\Cvetomir\Desktop\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\bin\Debug\net5.0\Collections.pdb
+C:\Users\Cvetomir\Desktop\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\obj\Debug\net5.0\Collections.csproj.AssemblyReference.cache
+C:\Users\Cvetomir\Desktop\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\obj\Debug\net5.0\Collections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cvetomir\Desktop\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\obj\Debug\net5.0\Collections.AssemblyInfoInputs.cache
+C:\Users\Cvetomir\Desktop\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\obj\Debug\net5.0\Collections.AssemblyInfo.cs
+C:\Users\Cvetomir\Desktop\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\obj\Debug\net5.0\Collections.csproj.CoreCompileInputs.cache
+C:\Users\Cvetomir\Desktop\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\obj\Debug\net5.0\Collections.dll
+C:\Users\Cvetomir\Desktop\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\obj\Debug\net5.0\refint\Collections.dll
+C:\Users\Cvetomir\Desktop\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\obj\Debug\net5.0\Collections.pdb
+C:\Users\Cvetomir\Desktop\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\obj\Debug\net5.0\Collections.genruntimeconfig.cache
+C:\Users\Cvetomir\Desktop\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\obj\Debug\net5.0\ref\Collections.dll
+C:\Users\Cvetomir\Desktop\QA Automation\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\bin\Debug\net5.0\Collections.exe
+C:\Users\Cvetomir\Desktop\QA Automation\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\bin\Debug\net5.0\Collections.deps.json
+C:\Users\Cvetomir\Desktop\QA Automation\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\bin\Debug\net5.0\Collections.runtimeconfig.json
+C:\Users\Cvetomir\Desktop\QA Automation\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\bin\Debug\net5.0\Collections.runtimeconfig.dev.json
+C:\Users\Cvetomir\Desktop\QA Automation\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\bin\Debug\net5.0\Collections.dll
+C:\Users\Cvetomir\Desktop\QA Automation\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\bin\Debug\net5.0\Collections.pdb
+C:\Users\Cvetomir\Desktop\QA Automation\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\obj\Debug\net5.0\Collections.csproj.AssemblyReference.cache
+C:\Users\Cvetomir\Desktop\QA Automation\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\obj\Debug\net5.0\Collections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cvetomir\Desktop\QA Automation\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\obj\Debug\net5.0\Collections.AssemblyInfoInputs.cache
+C:\Users\Cvetomir\Desktop\QA Automation\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\obj\Debug\net5.0\Collections.AssemblyInfo.cs
+C:\Users\Cvetomir\Desktop\QA Automation\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\obj\Debug\net5.0\Collections.csproj.CoreCompileInputs.cache
+C:\Users\Cvetomir\Desktop\QA Automation\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\obj\Debug\net5.0\Collections.dll
+C:\Users\Cvetomir\Desktop\QA Automation\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\obj\Debug\net5.0\refint\Collections.dll
+C:\Users\Cvetomir\Desktop\QA Automation\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\obj\Debug\net5.0\Collections.pdb
+C:\Users\Cvetomir\Desktop\QA Automation\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\obj\Debug\net5.0\Collections.genruntimeconfig.cache
+C:\Users\Cvetomir\Desktop\QA Automation\02.Unit-Testing-and-NUnit-Resources\Unit-Testing-and-NUnit-Resources\Collections\obj\Debug\net5.0\ref\Collections.dll
