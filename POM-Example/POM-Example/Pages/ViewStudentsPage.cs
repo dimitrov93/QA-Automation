@@ -1,6 +1,7 @@
 ﻿using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,7 +17,12 @@ namespace POM_Example.Pages
 
         public override string pageUrl => "https://mvc-app-node-express.nakov.repl.co/students";
 
-        public IWebElement studenCount => driver.FindElement(By.CssSelector("body > p > b"));
+        public ReadOnlyCollection<IWebElement> studentsCount => driver.FindElements(By.CssSelector("body > ul > li"));
 
+        public string[] GetRegisteredStudents()
+        {
+            var allStudents = this.studentsCount.Select(s => s.Text).ToArray();
+            return allStudents;
+        }
     }
 }

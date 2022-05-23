@@ -94,8 +94,13 @@ namespace POM_Example.Tests
             student.CreateStudent(name, email);
             var view_student = new ViewStudentsPage(driver);
             view_student.Open();
-            var elements = driver.FindElement(By.CssSelector("body > ul"));
-            Console.WriteLine(elements);
+            var students = view_student.GetRegisteredStudents();
+
+            foreach (var st in students)
+            {
+                Assert.IsTrue(st.IndexOf("(") > 0);
+                Assert.IsTrue(st.LastIndexOf(")") == st.Length - 1);
+            }
         }
     }
 }
