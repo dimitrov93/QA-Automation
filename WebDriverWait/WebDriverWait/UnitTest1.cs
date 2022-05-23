@@ -104,7 +104,9 @@ namespace WebDriverWaitEx
             driver.FindElement(By.PartialLinkText("This is")).Click();
 
 
-            var textEl1 = this.wait.Until(ExpectedConditions.ElementIsVisible(By.PartialLinkText("This is")));
+            var textEl1 = this.wait.Until(
+                ExpectedConditions.ElementIsVisible(By.PartialLinkText("This is"))
+                );
 
             Assert.IsNotNull(textEl1);
             Assert.IsNotEmpty(textEl1.Text);
