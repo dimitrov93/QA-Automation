@@ -4370,9 +4370,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cvetomir\\Desktop\\QA Automation\\Appium - Desktop App testing\\AppiumSummatorMobileTests\\Vivino\\Vivino.csproj",
-      "projectName": "Vivino",
-      "projectPath": "C:\\Users\\Cvetomir\\Desktop\\QA Automation\\Appium - Desktop App testing\\AppiumSummatorMobileTests\\Vivino\\Vivino.csproj",
+      "projectUniqueName": "C:\\Users\\Cvetomir\\Desktop\\QA Automation\\Appium - Desktop App testing\\AppiumSummatorMobileTests\\Vivino\\ContactBook.csproj",
+      "projectName": "ContactBook",
+      "projectPath": "C:\\Users\\Cvetomir\\Desktop\\QA Automation\\Appium - Desktop App testing\\AppiumSummatorMobileTests\\Vivino\\ContactBook.csproj",
       "packagesPath": "C:\\Users\\Cvetomir\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Cvetomir\\Desktop\\QA Automation\\Appium - Desktop App testing\\AppiumSummatorMobileTests\\Vivino\\obj\\",
       "projectStyle": "PackageReference",

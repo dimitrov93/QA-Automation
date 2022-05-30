@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yLqCEjoU64CG7hvNuHqswTLjVf+i/JIR4ay1/Kj7Ksy8z8Sds8t/8F2/Vchqzuifw0TJrQBvIUb2TSGRcsiEbA==",
+  "dgSpecHash": "aVZXEQ+VzyEvADb4STwj7GOVQI+BaKzIUhXaUt6w9fZ8jy4biTgOXvep+9i6KpOg/5YDJJU4O90zjx9rglMNgw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cvetomir\\Desktop\\QA Automation\\Appium - Desktop App testing\\AppiumSummatorMobileTests\\Vivino\\Vivino.csproj",
+  "projectFilePath": "C:\\Users\\Cvetomir\\Desktop\\QA Automation\\Appium - Desktop App testing\\AppiumSummatorMobileTests\\Vivino\\ContactBook.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cvetomir\\.nuget\\packages\\appium.webdriver\\4.3.1\\appium.webdriver.4.3.1.nupkg.sha512",
     "C:\\Users\\Cvetomir\\.nuget\\packages\\castle.core\\4.3.1\\castle.core.4.3.1.nupkg.sha512",
