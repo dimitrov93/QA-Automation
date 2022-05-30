@@ -3,6 +3,7 @@ using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Android;
 using OpenQA.Selenium.Support.UI;
 using System;
+using System.Linq;
 
 namespace ContactBook
 {
@@ -68,10 +69,19 @@ namespace ContactBook
             var result = driver.FindElementsById("contactbook.androidclient:id/recyclerViewContacts");
             wait.Until(t => result.Count != 0);
             Assert.That(result.Count > 0);
-            foreach (var contact in result)
-            {
-                Console.WriteLine(contact.ToString());
-            }
+        }
+
+        [Test]
+        public void Test_List_of_Contacts2()
+        {
+            driver.FindElementById("contactbook.androidclient:id/buttonConnect").Click();
+            driver.FindElementById("contactbook.androidclient:id/editTextKeyword").SendKeys("e");
+            var btnSearch = driver.FindElementById("contactbook.androidclient:id/buttonSearch");
+            btnSearch.Click();
+            var result = driver.FindElementById("contactbook.androidclient:id/textViewSearchResult");
+            wait.Until(t => result.Text != "");
+            var names = driver.FindElementsById("contactbook.androidclient:id/textViewFirstName");
+            Assert.That(names.Count, Is.EqualTo(3));
         }
 
     }
