@@ -3,6 +3,7 @@ using NUnit.Framework;
 using RestSharp;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net;
 using System.Text.Json;
 
@@ -114,7 +115,7 @@ namespace ContactBookAPI
 
             var body = new
             {
-                firstName = "Julia",
+                firstName = "Julia" + DateTime.Now.Ticks,
                 lastName = "Porte",
                 email = "julia@abv.bg",
                 phone = "123123131"
@@ -132,7 +133,9 @@ namespace ContactBookAPI
             var contacts = JsonSerializer.Deserialize<List<Contacts>>(AllContacts.Content);
 
             var lastContact = contacts[contacts.Count - 1];
-            /*     
+
+/*            var lc = contacts.Last();
+*/            /*     
                    Assert.That(lastContact.firstName, Is.EqualTo("Julia"));
                    Assert.That(lastContact.lastName, Is.EqualTo("Porte"));
             */

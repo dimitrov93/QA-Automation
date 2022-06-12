@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactBookAPI", "Exam Preparation\ContactBookAPI.csproj", "{290E091D-2634-4266-B005-DF6E4B732FFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactBook.WebDriverTests", "ContactBook.WebDriverTests\ContactBook.WebDriverTests.csproj", "{FA51FBF1-0931-4D7C-BA23-6C36B64C66B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{290E091D-2634-4266-B005-DF6E4B732FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{290E091D-2634-4266-B005-DF6E4B732FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{290E091D-2634-4266-B005-DF6E4B732FFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA51FBF1-0931-4D7C-BA23-6C36B64C66B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA51FBF1-0931-4D7C-BA23-6C36B64C66B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA51FBF1-0931-4D7C-BA23-6C36B64C66B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA51FBF1-0931-4D7C-BA23-6C36B64C66B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
