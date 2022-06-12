@@ -1,0 +1,5 @@
+C:\Users\Cvetomir\Desktop\QA Automation\Nunit-Summator\Summator\obj\Debug\net5.0\Summator.csproj.AssemblyReference.cache
+C:\Users\Cvetomir\Desktop\QA Automation\Nunit-Summator\Summator\obj\Debug\net5.0\Summator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cvetomir\Desktop\QA Automation\Nunit-Summator\Summator\obj\Debug\net5.0\Summator.AssemblyInfoInputs.cache
+C:\Users\Cvetomir\Desktop\QA Automation\Nunit-Summator\Summator\obj\Debug\net5.0\Summator.AssemblyInfo.cs
+C:\Users\Cvetomir\Desktop\QA Automation\Nunit-Summator\Summator\obj\Debug\net5.0\Summator.csproj.CoreCompileInputs.cache

@@ -1,1 +1,0 @@
-newman run "QA-Automation.postman_collection.json" -e "user.postman_environment.json"
