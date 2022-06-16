@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam Prep2", "Exam Prep2\Exam Prep2.csproj", "{BA356536-142B-4D1C-B07A-D3AA6CB5C1DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "Exam Prep2\API.csproj", "{BA356536-142B-4D1C-B07A-D3AA6CB5C1DA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selenium", "Selenium\Selenium.csproj", "{46AE73C6-DA88-45B7-B054-5CA2BDDFA384}"
 EndProject
