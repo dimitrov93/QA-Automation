@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cvetomir\\Desktop\\QA Automation\\Exam Prep\\Exam Prep 3\\Exam Prep 3\\Exam Prep 3.csproj": {}
+    "C:\\Users\\Cvetomir\\Desktop\\QA Automation\\09.Exam Prep3\\Exam Prep 3\\Exam Prep 3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cvetomir\\Desktop\\QA Automation\\Exam Prep\\Exam Prep 3\\Exam Prep 3\\Exam Prep 3.csproj": {
+    "C:\\Users\\Cvetomir\\Desktop\\QA Automation\\09.Exam Prep3\\Exam Prep 3\\Exam Prep 3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cvetomir\\Desktop\\QA Automation\\Exam Prep\\Exam Prep 3\\Exam Prep 3\\Exam Prep 3.csproj",
+        "projectUniqueName": "C:\\Users\\Cvetomir\\Desktop\\QA Automation\\09.Exam Prep3\\Exam Prep 3\\Exam Prep 3.csproj",
         "projectName": "Exam Prep 3",
-        "projectPath": "C:\\Users\\Cvetomir\\Desktop\\QA Automation\\Exam Prep\\Exam Prep 3\\Exam Prep 3\\Exam Prep 3.csproj",
+        "projectPath": "C:\\Users\\Cvetomir\\Desktop\\QA Automation\\09.Exam Prep3\\Exam Prep 3\\Exam Prep 3.csproj",
         "packagesPath": "C:\\Users\\Cvetomir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cvetomir\\Desktop\\QA Automation\\Exam Prep\\Exam Prep 3\\Exam Prep 3\\obj\\",
+        "outputPath": "C:\\Users\\Cvetomir\\Desktop\\QA Automation\\09.Exam Prep3\\Exam Prep 3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Cvetomir\\AppData\\Roaming\\NuGet\\NuGet.Config",

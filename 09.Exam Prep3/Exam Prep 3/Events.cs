@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace Exam_Prep_3
+namespace API_Tests
 {
     public class Events
     {

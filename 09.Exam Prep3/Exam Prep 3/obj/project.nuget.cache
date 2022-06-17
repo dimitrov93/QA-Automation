@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KKwear94Jp3Oqn5DQnjL2JrKUsq/2JGSG3RDMNQRR7F4IVjX+Hg2qHiiBRU0yGD/1myjz/cMaVna9mNLeCLISA==",
+  "dgSpecHash": "D7O3I3kGYdmqhHIaTeIxBbvbxsqycer1KUY7Ej5XZk2VZnFowHldRQ1AkzF2LvJBIZF+Bg40XMUyv6JSvTzJDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cvetomir\\Desktop\\QA Automation\\Exam Prep\\Exam Prep 3\\Exam Prep 3\\Exam Prep 3.csproj",
+  "projectFilePath": "C:\\Users\\Cvetomir\\Desktop\\QA Automation\\09.Exam Prep3\\Exam Prep 3\\API_Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cvetomir\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Cvetomir\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

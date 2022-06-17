@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.Text.Json;
 
-namespace Exam_Prep_3
+namespace API_Tests
 {
     public class API_Tests
     {
