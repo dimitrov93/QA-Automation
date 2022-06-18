@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vivino - Android", "..\Vivi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactBook", "..\ContactBook\ContactBook\ContactBook.csproj", "{838FD864-788D-45E7-99EA-913264CA8662}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "..\API\API\API.csproj", "{692B8C7F-1233-4E76-BD61-FF6BDFC64D2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{838FD864-788D-45E7-99EA-913264CA8662}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{838FD864-788D-45E7-99EA-913264CA8662}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{838FD864-788D-45E7-99EA-913264CA8662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{692B8C7F-1233-4E76-BD61-FF6BDFC64D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692B8C7F-1233-4E76-BD61-FF6BDFC64D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692B8C7F-1233-4E76-BD61-FF6BDFC64D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692B8C7F-1233-4E76-BD61-FF6BDFC64D2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
