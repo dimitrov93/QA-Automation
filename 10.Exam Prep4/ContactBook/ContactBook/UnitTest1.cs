@@ -1,6 +1,7 @@
 using NUnit.Framework;
 using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Android;
+using OpenQA.Selenium.Support.UI;
 using System;
 
 namespace ContactBook
@@ -9,6 +10,7 @@ namespace ContactBook
     {
         private AndroidDriver<AndroidElement> driver;
         private AppiumOptions options;
+        private WebDriverWait wait;
 
         private const string AppiumUrl = "http://127.0.0.1:4723/wd/hub";
         private const string ContactBookUrl = "https://contactbook.nakov.repl.co/api";
@@ -22,12 +24,12 @@ namespace ContactBook
 
             driver = new AndroidDriver<AndroidElement>(new Uri(AppiumUrl), options);
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
+            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(5));
         }
 
         [TearDown]
         public void ShutDownApp()
         {
-            driver.CloseApp();
             driver.Quit();
         }
 
@@ -42,19 +44,24 @@ namespace ContactBook
 
             var firstName = driver.FindElementById("contactbook.androidclient:id/textViewFirstName").Text;
             var lastName = driver.FindElementById("contactbook.androidclient:id/textViewLastName").Text;
-            var resultsText = driver.FindElementById("contactbook.androidclient:id/textViewSearchResult").Text;
+            var resultsText = driver.FindElementById("contactbook.androidclient:id/textViewSearchResult");
+
+            wait.Until(t => resultsText.Text != "");
+
             Assert.That(firstName, Is.EqualTo("Steve"));
             Assert.That(lastName, Is.EqualTo("Jobs"));
-            Assert.That(resultsText, Is.EqualTo("Contacts found: 1"));
+            Assert.That(resultsText.Text, Is.EqualTo("Contacts found: 1"));
 
             driver.FindElementById("contactbook.androidclient:id/editTextKeyword").Clear();
             driver.FindElementById("contactbook.androidclient:id/editTextKeyword").SendKeys("e");
             driver.FindElementById("contactbook.androidclient:id/buttonSearch").Click();
-            var newResults = driver.FindElementById("contactbook.androidclient:id/textViewSearchResult").Text;
+
+            var newResults = driver.FindElementById("contactbook.androidclient:id/textViewSearchResult");
+            wait.Until(x => newResults.Text != "");
 
             var allNames = driver.FindElementsById("contactbook.androidclient:id/textViewFirstName");
-            Console.WriteLine(allNames[0].Text);
-
+            Console.WriteLine(allNames.Count);
+            Assert.That(allNames.Count, Is.GreaterThanOrEqualTo(3));
 
         }
     }
