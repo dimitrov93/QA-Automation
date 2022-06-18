@@ -20,10 +20,10 @@ namespace Selenium.PageObjects
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
         }
 
-        public IWebElement HomeLink => driver.FindElement(By.XPath("/html/body/a[1]"));
-        public IWebElement ViewStudents => driver.FindElement(By.XPath("/html/body/a[2]"));
-        public IWebElement AddStudents => driver.FindElement(By.CssSelector("body > a:nth-child(5)"));
-        public IWebElement Heading => driver.FindElement(By.CssSelector("body > h1"));
+        public IWebElement HomeLinkLink => driver.FindElement(By.XPath("/html/body/a[1]"));
+        public IWebElement ViewStudentsLink => driver.FindElement(By.XPath("/html/body/a[2]"));
+        public IWebElement AddStudentsLink => driver.FindElement(By.CssSelector("body > a:nth-child(5)"));
+        public IWebElement HeadingLink => driver.FindElement(By.CssSelector("body > h1"));
 
         public void OpenThePage()
         {
