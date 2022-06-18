@@ -34,7 +34,6 @@ namespace Vivino___Android
         [TearDown]
         public void ShutDownApp()
         {
-            driver.CloseApp();
             driver.Quit();
         }
 
