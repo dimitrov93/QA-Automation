@@ -7,7 +7,7 @@ using System.Text.Json;
 
 namespace TaskBoardSystem
 {
-    public class TestBoardTests
+    public class TestBoardAPITests
     {
         private RestClient client;
         private RestRequest request;

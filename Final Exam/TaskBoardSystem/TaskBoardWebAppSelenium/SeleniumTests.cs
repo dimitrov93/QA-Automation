@@ -10,7 +10,7 @@ namespace TaskBoardWebAppSelenium
     {
 
         private WebDriver driver;
-        private const string url = "https://taskboard.dimitrov93.repl.co//";
+        private const string url = "https://taskboard.nakov.repl.co";
 
         [SetUp]
         public void OpeBrowser()
@@ -134,12 +134,13 @@ namespace TaskBoardWebAppSelenium
             var headerName = driver.FindElement(By.CssSelector("body > header > h1")).Text;
             Assert.That(headerName, Is.EqualTo("Task Board"));
 
-            var allTasks = driver.FindElements(By.CssSelector("table.task-entry"));
-            var lastTask = allTasks[allTasks.Count - 1];
+            var allTasks = driver.FindElements(By.CssSelector("body > main > div > div:nth-child(1) > table.task-entry"));
+            var lastTask = allTasks.Last();
 
-            Console.WriteLine(lastTask.Text);
-
-
+            var resultTitle = lastTask.FindElement(By.CssSelector("tr.title > td")).Text;
+            var resultDescription = lastTask.FindElement(By.CssSelector("tr.description > td")).Text;
+            Assert.That(resultTitle, Is.EqualTo(titleText));
+            Assert.That(resultDescription, Is.EqualTo(descriptionText));
         }
     }
 }
