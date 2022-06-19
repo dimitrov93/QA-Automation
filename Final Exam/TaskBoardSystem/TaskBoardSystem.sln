@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskBoardSystem", "TaskBoar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskBoardWebAppSelenium", "TaskBoardWebAppSelenium\TaskBoardWebAppSelenium.csproj", "{767FF1AB-73D6-4864-B78C-521C9AEC874D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppiumAndroid", "AppiumAndroid\AppiumAndroid.csproj", "{C43221E1-597B-4604-9476-C764C54B2542}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{767FF1AB-73D6-4864-B78C-521C9AEC874D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{767FF1AB-73D6-4864-B78C-521C9AEC874D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{767FF1AB-73D6-4864-B78C-521C9AEC874D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C43221E1-597B-4604-9476-C764C54B2542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C43221E1-597B-4604-9476-C764C54B2542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C43221E1-597B-4604-9476-C764C54B2542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C43221E1-597B-4604-9476-C764C54B2542}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
